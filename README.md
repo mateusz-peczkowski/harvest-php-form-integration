@@ -5,8 +5,8 @@ This package provides a comprehensive implementation of Harvest API documentatio
 
 ## Actions
 - Duplicate entries from one day to many days
-- Remove entries for specific day
-- Set hours for entries for specific day based on another day
+- Remove entries for a specific day
+- Set hours for entries for a specific day based on another day
 
 ## Requirements
 - PHP 8.1 or higher
@@ -14,7 +14,9 @@ This package provides a comprehensive implementation of Harvest API documentatio
 - Harvest API token (token can be acquired through: https://id.getharvest.com/developers)
 
 ## Installation
+1. Clone the repository and install dependencies
 ```bash
 composer install
 ```
-Attach domain to public directory and set up the `.env` file based on `.env.example` file
+2. Attach domain to public directory
+3. Configure `.env` file based on `.env.example`

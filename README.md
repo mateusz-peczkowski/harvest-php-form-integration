@@ -1,6 +1,8 @@
 # Harvest API PHP via forms
 This package provides a comprehensive implementation of Harvest API documentation in PHP, enabling the user to connect to Harvest API via CURL and set data like a standalone website application with forms.
 
+![Screen 1](https://github.com/mateusz-peczkowski/harvest-php-form-integration/blob/master/screens/1.png?raw=true)
+
 ## Actions
 - Duplicate entries from one day to many days
 - Remove entries for specific day

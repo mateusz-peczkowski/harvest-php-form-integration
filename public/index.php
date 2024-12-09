@@ -23,7 +23,7 @@
 
                 <div class="text-left mb-1">
                     <label for="de-to" class="block mb-1 text-sm font-medium">To</label>
-                    <textarea id="de-to" name="to" placeholder="dd.mm.yyyy, dd.mm.yyyy" rows="4" class="py-2 px-4 bg-gray-800 text-white rounded-md focus:outline-none mb-4 resize-y w-full" required></textarea>
+                    <textarea id="de-to" name="to" placeholder="dd/mm/yyyy, dd/mm/yyyy" rows="4" class="py-2 px-4 bg-gray-800 text-white rounded-md focus:outline-none mb-4 resize-y w-full" required></textarea>
                 </div>
                 
                 <div class="flex items-center mb-4">

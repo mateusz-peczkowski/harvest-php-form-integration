@@ -24,7 +24,7 @@ $toDates = [];
 
 foreach(explode(', ', $_POST['to']) as $date) {
     try {
-        $toDates[] = Carbon::parse($date);
+        $toDates[] = Carbon::createFromFormat('d/m/Y', $date);
     } catch (Exception $e) {
         dd('Error: Invalid \'to\' format: ' . $_ENV['HARVEST_TIME_FORMAT']);
     }
